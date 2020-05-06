@@ -6,21 +6,25 @@ summaryLength = "30"
 theme = "airspace-hugo"
 title = "Zhilin Zhou"
 [[menu.footer]]
-URL = "note"
-name = "Notes"
-weight = "4"
-[[menu.footer]]
 URL = "about"
 name = "About"
 weight = 1
+[[menu.footer]]
+URL = "blog"
+name = "Blog"
+weight = 3
 [[menu.footer]]
 URL = "resume"
 name = "Resume"
 weight = 2
 [[menu.footer]]
-URL = "blog"
-name = "Blog"
-weight = 3
+URL = "note"
+name = "Notes"
+weight = "4"
+[[menu.main]]
+URL = "note"
+name = "Notes"
+weight = "4"
 [[menu.main]]
 URL = "about"
 name = "About"
