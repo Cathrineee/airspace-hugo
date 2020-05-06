@@ -5,7 +5,10 @@ paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Zhilin Zhou"
-
+[[menu.footer]]
+URL = "note"
+name = "Notes"
+weight = "4"
 [[menu.footer]]
 URL = "about"
 name = "About"
