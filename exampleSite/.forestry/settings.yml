@@ -30,6 +30,16 @@ sections:
   templates:
   - post
 - type: directory
+  path: exampleSite/content/resume
+  label: Resume
+  create: documents
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/note
+  label: Notes
+  create: all
+  match: "**/*"
+- type: directory
   path: exampleSite/content
   label: All Pages
   create: all
