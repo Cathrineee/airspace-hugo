@@ -5,13 +5,7 @@ paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Zhilin Zhou"
-[Languages.zh]
-contentDir = "content/chinese"
-copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "主页"
-languageCode = "zh-chi"
-languageName = "Zh"
-weight = 2
+
 [[menu.footer]]
 URL = "about"
 name = "About"
