@@ -13,6 +13,13 @@ sections:
   - post
 - type: heading
   label: Author
+- type: directory
+  path: exampleSite/content/author
+  label: Author
+  create: documents
+  match: "**/*"
+  templates:
+  - author
 - type: heading
   label: Project
 - type: directory
