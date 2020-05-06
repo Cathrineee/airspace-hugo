@@ -21,7 +21,7 @@ sections:
   templates:
   - author
 - type: heading
-  label: Project
+  label: Article
 - type: directory
   path: exampleSite/content/about
   label: About
@@ -29,6 +29,13 @@ sections:
   match: "**/*"
   templates:
   - author
+- type: directory
+  path: exampleSite/content/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+  templates:
+  - post
 - type: directory
   path: exampleSite/content
   label: All Pages
