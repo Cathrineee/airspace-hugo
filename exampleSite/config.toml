@@ -12,7 +12,7 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
-[Languages.fr]
+[Languages.zh]
 contentDir = "content/chinese"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
 home = "主页"
@@ -24,57 +24,26 @@ URL = "about"
 name = "About"
 weight = 1
 [[menu.footer]]
-URL = "project"
-name = "Project"
+URL = "resume"
+name = "Resume"
 weight = 2
 [[menu.footer]]
-URL = "service"
-name = "Service"
+URL = "blog"
+name = "Blog"
 weight = 3
-[[menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 6
 [[menu.main]]
 URL = "about"
 name = "About"
 weight = 1
 [[menu.main]]
-URL = "project"
-name = "Project"
+URL = "resume"
+name = "Resume"
 weight = 2
-[[menu.main]]
-URL = "service"
-name = "Service"
-weight = 3
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 4
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 5
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-parent = "Pages"
-[[menu.main]]
-URL = "pricing"
-name = "Pricing"
-parent = "Pages"
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 6
+weight = 3
+
 [params]
 author = "Themefisher"
 contact_form_action = "#"
@@ -119,20 +88,8 @@ link = "plugins/google-map/gmap.js"
 enable = true
 preloader = ""
 [[params.social]]
-icon = "ion-social-googleplus-outline"
-link = "#"
-[[params.social]]
 icon = "ion-social-linkedin-outline"
 link = "#"
 [[params.social]]
-icon = "ion-social-pinterest-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-dribbble-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-twitter-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-facebook-outline"
+icon = "ion-social-github-outline"
 link = "#"
