@@ -13,11 +13,11 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [Languages.fr]
-contentDir = "content/french"
+contentDir = "content/chinese"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
+home = "主页"
+languageCode = "zh-chi"
+languageName = "Zh"
 weight = 2
 [[menu.footer]]
 URL = "about"
