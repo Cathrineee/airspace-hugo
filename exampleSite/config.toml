@@ -38,23 +38,23 @@ URL = "note"
 name = "Notes"
 weight = "4"
 [params]
-author = "Themefisher"
-contact_form_action = "#"
-description = "This is meta description"
-email = "demo@email.com"
+author = "Zhilin Zhou"
+contact_form_action = ""
+description = ""
+email = "z374zhou@uwaterloo.ca"
 google_analitycs_id = ""
-location = "North Main Street,Brooklyn Australia"
-logo = "images/logo.png"
-mobile = "0124857985320"
+location = ""
+logo = "images/signature.png"
+mobile = ""
 multi_author = false
 [params.gmap]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 [params.nav_button]
-enable = true
+enable = false
 label = "Get A Quote"
 link = "contact"
 [[params.plugins.css]]
