@@ -22,21 +22,21 @@ URL = "note"
 name = "Notes"
 weight = "4"
 [[menu.main]]
-URL = "note"
-name = "Notes"
-weight = "4"
-[[menu.main]]
 URL = "about"
 name = "About"
 weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
 [[menu.main]]
 URL = "resume"
 name = "Resume"
 weight = 2
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
+URL = "note"
+name = "Notes"
+weight = "4"
 [params]
 author = "Themefisher"
 contact_form_action = "#"
