@@ -11,3 +11,4 @@ image: "/images/ID.jpeg"
 draft: true
 
 ---
+I have come to love myself, for who I was, who I am, and who I hope to become.
